@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  justify-content: flex-start; /*center,flex-start,flex-end,space-around,space-between,*/
+  align-items: baseline; /*stretch,baseline,flex-start,flex-end,center*/
+  background-color: Blue;
+}
+
+.flex-item {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  /*flex-grow: 1; 
+  flex-shrink: :0;
+  flex-basis: 30px;*/
+  flex: 1 0 30px;
+  align-self: 100px;
+}
